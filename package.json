@@ -1,0 +1,18 @@
+{
+  "name": "symdiff-html",
+  "version": "0.0.1",
+  "description": "Extracts all classes from a HTML file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r test/chai.js test/*.test.js"
+  },
+  "author": "Nikolaus Piccolotto <hello@npiccolotto.com>",
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "3.8.2"
+  },
+  "devDependencies": {
+    "chai": "2.3.0",
+    "mocha": "2.2.4"
+  }
+}
