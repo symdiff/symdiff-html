@@ -1,6 +1,6 @@
 var html = require('htmlparser2');
 
-function disjointHTML(htmlString) {
+function symdiffHTML(htmlString) {
     var classes = [],
         htmlparser = new html.Parser({
             onopentag: function onopentag(name, attribs) {
@@ -21,4 +21,4 @@ function disjointHTML(htmlString) {
     return classes;
 }
 
-module.exports = disjointHTML;
+module.exports = symdiffHTML;
