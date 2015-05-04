@@ -1,13 +1,21 @@
 {
   "name": "symdiff-html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extracts all classes from a HTML file.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/symdiff/symdiff-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/symdiff/symdiff-html/issues"
+  },
+  "homepage": "https://symdiff.github.io",
   "scripts": {
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "author": "Nikolaus Piccolotto <hello@npiccolotto.com>",
-  "license": "MIT",
+  "license": "Apache 2.0",
   "dependencies": {
     "htmlparser2": "3.8.2"
   },
